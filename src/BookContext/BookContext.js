@@ -4,18 +4,18 @@ export const BookContext = createContext();
 export const BookProvider =(props)=>{ 
     const [book,setbook] = useState([
         {
-            name: 'Harry Potter',
-            price: "500 Rs",
+            name: 'React',
+            price: "Rs. 500",
             id:1
         },
         {
-            name: 'Narnia',
-            price: "400 Rs",
+            name: 'Angular',
+            price: "Rs. 350",
             id:2
         },
         {
-          name: 'Lion King',
-          price: "600 Rs",
+          name: 'Angular JS',
+          price: "Rs. 200",
           id:3
         }
       ])
